@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #e6e6e6;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 60% 10%;
+    font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+
+
+.header{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+.mainBody{
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.Footer{
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+
+/* Styling for the nav starts here */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h2{
+    letter-spacing: 6px;
+    box-shadow: 1px 3px 0px 0px  rgb(163, 161, 161);
+}
+
+.links{
+    display: flex;
+    flex-basis: 500px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links li {
+    text-decoration: none;
+    list-style: none;
+}
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.links li a:hover {
+    font-size: 18px;
+    transition-duration: 0.7s;
+    transition-delay: 0.2s;
+    color: crimson;
+    width: 500px;
+    height: 200px;
+    background-color: skyblue;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    padding: 0 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px crimson;
+    
+}
+
+.signInBtn{
+    background-color: rgb(243, 36, 36);
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 3px white;
+    font-weight: bolder;
+}
+.signInBtn:hover{
+    background-color: crimson;
+    padding: 15px;
+
+
+}
+
+.signInBtn:active{
+    box-shadow: none;
+    transform: translateY(2px);
+
+}
+
+.redText{
+    color: crimson;
+}
+
+.tagLine{
+    margin-top: 40px;
+    font-size: 20px;
+}
+/* Styling for the nav ends here */
+
+
+/* Styling for the main body starts here */
+.mainBody{
+  
+}
+
+.whiteRow{
+    margin: auto;
+    width: 500px;
+    height: 70px;
+    background-color: white;
+    margin-top: -61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px crimson;
+
+}
+.whiteRow > div:hover{
+    font-size: 19px;
+    color: crimson;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    transition-delay: 0.2s;
+
+    box-shadow: 0 3px crimson;
+}
+.features{
+    display:grid;
+   height: 50vh;
+   justify-items: center;
+   grid-template-columns: 1fr 1fr;
+   width: 100%;
+   /* align-items: baseline; */
+
+   margin-top: 20px;
+   
+}
+.workoutbox{
+    width: 300px;
+    height: 200px;
+    background-color: skyblue;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center;  */
+    /* flex-direction:row;  */
+    /* padding: 0 20px;  */
+    border-radius: 20px;
+    box-shadow: 0 3px crimson;
+    
+}
+.studybox{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    /* display: flex; 
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    padding: 0 20px;  */
+    border-radius: 20px;
+    box-shadow: 0 3px crimson;
+    
+}
+.activitybox{
+    width: 300px;
+    height: 200px;
+    background-color: skyblue;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    padding: 0 20px; */
+    border-radius: 20px;
+    box-shadow: 0 3px crimson;
+    
+}
+.vibeupbox{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(55, 77, 85);
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    padding: 0 20px; */
+    border-radius: 20px;
+    box-shadow: 0 3px crimson;
+    
+} 
+.blackext{
+    color: rgb(0, 0, 0);
+    width:100%;
+}
+.workouttitle{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+}
+.workoutdescription{
+    display: flex;
+    justify-content: center;
+}
+.studytitle{
+    display: flex;
+    margin:auto;
+
+    justify-content: center;
+}
+.studydescription{
+    display: flex;
+    margin:auto;
+    width:100%;
+
+    justify-content: center;
+}
+.activitytitle{
+    display: flex;
+    justify-content: center;
+}
+.activitydescription{
+    display: flex;
+    justify-content: center;
+}
+.vibeuptitle{
+    display: flex;
+    justify-content: center;
+}
+.vibeupdescription{
+    display: flex;
+    justify-content: center;
+}
+/* Styling for the main body ends here */

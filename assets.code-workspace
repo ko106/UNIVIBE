@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "../../../Downloads/drive-download-20231031T173511Z-001/assets"
+		},
+		{
+			"name": "UNIVIBE",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UNIVIBE"
+	}
+}
